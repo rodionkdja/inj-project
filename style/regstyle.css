@@ -1,0 +1,24 @@
+form div {
+    width: 400px;
+}
+
+.big-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+form button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.msg {
+    color: brown;
+}
