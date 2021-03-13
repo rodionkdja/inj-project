@@ -2,12 +2,15 @@ form div {
     width: 400px;
 }
 
+body {
+    background-image: url('../img/fon.jpg');
+}
+
 .big-form {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    border: 1px solid black;
 }
 
 form button {
@@ -15,10 +18,37 @@ form button {
     margin-bottom: 25px;
 }
 
-h1 {
+form {
+    background-color:white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.big-form h1 {
     margin-bottom: 50px;
 }
 
 .msg {
     color: brown;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px black;
+    padding: 20px ;
+    align-items: center;
+    background-color: white;
+}
+
+header h1 {
+    margin-bottom: -1px;
+}
+
+footer {
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    text-align: center;
 }
